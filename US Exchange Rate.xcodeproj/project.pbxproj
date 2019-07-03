@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845D752222CB2B8F00FD6FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845D752122CB2B8E00FD6FDB /* AppDelegate.swift */; };
+		845D752722CB2B8F00FD6FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D752522CB2B8F00FD6FDB /* Main.storyboard */; };
+		845D752A22CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845D752822CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodeld */; };
+		845D752C22CB2B9300FD6FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D752B22CB2B9300FD6FDB /* Assets.xcassets */; };
+		845D752F22CB2B9300FD6FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D752D22CB2B9300FD6FDB /* LaunchScreen.storyboard */; };
+		84A56E3722CC342100877C75 /* ExchangeRate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E3522CC342100877C75 /* ExchangeRate+CoreDataClass.swift */; };
+		84A56E3822CC342100877C75 /* ExchangeRate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E3622CC342100877C75 /* ExchangeRate+CoreDataProperties.swift */; };
+		84D2E93522CB340100F84194 /* ExchangeRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2E93422CB340100F84194 /* ExchangeRateViewController.swift */; };
+		84D2E93722CB360E00F84194 /* ExchangeRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2E93622CB360E00F84194 /* ExchangeRateService.swift */; };
+		84D2E93922CB3EDB00F84194 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2E93822CB3EDB00F84194 /* Constants.swift */; };
+		84D2E93B22CB43C500F84194 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2E93A22CB43C500F84194 /* ExchangeRate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		845D751E22CB2B8E00FD6FDB /* US Exchange Rate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "US Exchange Rate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845D752122CB2B8E00FD6FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		845D752622CB2B8F00FD6FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845D752922CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = US_Exchange_Rate.xcdatamodel; sourceTree = "<group>"; };
+		845D752B22CB2B9300FD6FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845D752E22CB2B9300FD6FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845D753022CB2B9300FD6FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A56E3522CC342100877C75 /* ExchangeRate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExchangeRate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84A56E3622CC342100877C75 /* ExchangeRate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExchangeRate+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84D2E93422CB340100F84194 /* ExchangeRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateViewController.swift; sourceTree = "<group>"; };
+		84D2E93622CB360E00F84194 /* ExchangeRateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateService.swift; sourceTree = "<group>"; };
+		84D2E93822CB3EDB00F84194 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84D2E93A22CB43C500F84194 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845D751B22CB2B8E00FD6FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845D751522CB2B8E00FD6FDB = {
+			isa = PBXGroup;
+			children = (
+				845D752022CB2B8E00FD6FDB /* US Exchange Rate */,
+				845D751F22CB2B8E00FD6FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845D751F22CB2B8E00FD6FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845D751E22CB2B8E00FD6FDB /* US Exchange Rate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845D752022CB2B8E00FD6FDB /* US Exchange Rate */ = {
+			isa = PBXGroup;
+			children = (
+				845D753722CB2C2900FD6FDB /* Model */,
+				845D753822CB2C2E00FD6FDB /* View */,
+				845D753622CB2C2300FD6FDB /* Controller */,
+				845D753A22CB2C3700FD6FDB /* ViewModel */,
+				845D753D22CB2C5B00FD6FDB /* Storage */,
+				845D753C22CB2C5400FD6FDB /* Service */,
+				845D753B22CB2C3F00FD6FDB /* Supporting Files */,
+				845D753922CB2C3200FD6FDB /* Extensions */,
+				845D753022CB2B9300FD6FDB /* Info.plist */,
+				845D752822CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodeld */,
+			);
+			path = "US Exchange Rate";
+			sourceTree = "<group>";
+		};
+		845D753622CB2C2300FD6FDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84D2E93422CB340100F84194 /* ExchangeRateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		845D753722CB2C2900FD6FDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84A56E3522CC342100877C75 /* ExchangeRate+CoreDataClass.swift */,
+				84A56E3622CC342100877C75 /* ExchangeRate+CoreDataProperties.swift */,
+				84D2E93A22CB43C500F84194 /* ExchangeRate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		845D753822CB2C2E00FD6FDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				845D752B22CB2B9300FD6FDB /* Assets.xcassets */,
+				845D752D22CB2B9300FD6FDB /* LaunchScreen.storyboard */,
+				845D752522CB2B8F00FD6FDB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		845D753922CB2C3200FD6FDB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		845D753A22CB2C3700FD6FDB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		845D753B22CB2C3F00FD6FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				845D752122CB2B8E00FD6FDB /* AppDelegate.swift */,
+				84D2E93822CB3EDB00F84194 /* Constants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845D753C22CB2C5400FD6FDB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84D2E93622CB360E00F84194 /* ExchangeRateService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		845D753D22CB2C5B00FD6FDB /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845D751D22CB2B8E00FD6FDB /* US Exchange Rate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845D753322CB2B9300FD6FDB /* Build configuration list for PBXNativeTarget "US Exchange Rate" */;
+			buildPhases = (
+				845D751A22CB2B8E00FD6FDB /* Sources */,
+				845D751B22CB2B8E00FD6FDB /* Frameworks */,
+				845D751C22CB2B8E00FD6FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "US Exchange Rate";
+			productName = "US Exchange Rate";
+			productReference = 845D751E22CB2B8E00FD6FDB /* US Exchange Rate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845D751622CB2B8E00FD6FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Junior Etrata";
+				TargetAttributes = {
+					845D751D22CB2B8E00FD6FDB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 845D751922CB2B8E00FD6FDB /* Build configuration list for PBXProject "US Exchange Rate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845D751522CB2B8E00FD6FDB;
+			productRefGroup = 845D751F22CB2B8E00FD6FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845D751D22CB2B8E00FD6FDB /* US Exchange Rate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845D751C22CB2B8E00FD6FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845D752F22CB2B9300FD6FDB /* LaunchScreen.storyboard in Resources */,
+				845D752C22CB2B9300FD6FDB /* Assets.xcassets in Resources */,
+				845D752722CB2B8F00FD6FDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845D751A22CB2B8E00FD6FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D2E93922CB3EDB00F84194 /* Constants.swift in Sources */,
+				84D2E93722CB360E00F84194 /* ExchangeRateService.swift in Sources */,
+				84A56E3822CC342100877C75 /* ExchangeRate+CoreDataProperties.swift in Sources */,
+				84A56E3722CC342100877C75 /* ExchangeRate+CoreDataClass.swift in Sources */,
+				84D2E93522CB340100F84194 /* ExchangeRateViewController.swift in Sources */,
+				845D752A22CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodeld in Sources */,
+				84D2E93B22CB43C500F84194 /* ExchangeRate.swift in Sources */,
+				845D752222CB2B8F00FD6FDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845D752522CB2B8F00FD6FDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845D752622CB2B8F00FD6FDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845D752D22CB2B9300FD6FDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845D752E22CB2B9300FD6FDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845D753122CB2B9300FD6FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845D753222CB2B9300FD6FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845D753422CB2B9300FD6FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D79AMRGRW;
+				INFOPLIST_FILE = "US Exchange Rate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EtrataJunior.US-Exchange-Rate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		845D753522CB2B9300FD6FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D79AMRGRW;
+				INFOPLIST_FILE = "US Exchange Rate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EtrataJunior.US-Exchange-Rate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845D751922CB2B8E00FD6FDB /* Build configuration list for PBXProject "US Exchange Rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845D753122CB2B9300FD6FDB /* Debug */,
+				845D753222CB2B9300FD6FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845D753322CB2B9300FD6FDB /* Build configuration list for PBXNativeTarget "US Exchange Rate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845D753422CB2B9300FD6FDB /* Debug */,
+				845D753522CB2B9300FD6FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		845D752822CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				845D752922CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodel */,
+			);
+			currentVersion = 845D752922CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodel */;
+			path = US_Exchange_Rate.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 845D751622CB2B8E00FD6FDB /* Project object */;
+}
