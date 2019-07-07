@@ -41,6 +41,9 @@
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="ftb-Hc-xpJ">
                                         <rect key="frame" x="78" y="0.0" width="203" height="31"/>
+                                        <connections>
+                                            <action selector="slider:" destination="uzi-oA-uWD" eventType="valueChanged" id="KV2-5l-wnO"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                             </stackView>
@@ -78,14 +81,20 @@
                                     <outlet property="delegate" destination="uzi-oA-uWD" id="Ld2-cS-fri"/>
                                 </connections>
                             </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="QWt-gM-Cfw">
+                                <rect key="frame" x="169" y="409" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="QWt-gM-Cfw" firstAttribute="centerY" secondItem="CDy-hX-Qom" secondAttribute="centerY" id="G3g-5M-J3d"/>
                             <constraint firstItem="CDy-hX-Qom" firstAttribute="trailing" secondItem="nrw-Pi-ocb" secondAttribute="trailing" id="HEy-pZ-kjQ"/>
                             <constraint firstItem="rGV-tU-Exa" firstAttribute="centerX" secondItem="wPe-2T-B7g" secondAttribute="centerX" id="Lzf-LV-xqY"/>
                             <constraint firstAttribute="bottom" secondItem="CDy-hX-Qom" secondAttribute="bottom" id="NJj-E4-cQy"/>
                             <constraint firstItem="XqD-w9-wks" firstAttribute="centerX" secondItem="rGV-tU-Exa" secondAttribute="centerX" id="Oqa-A0-f9r"/>
                             <constraint firstItem="rGV-tU-Exa" firstAttribute="top" secondItem="nrw-Pi-ocb" secondAttribute="top" constant="16" id="Qbr-BE-7Ng"/>
+                            <constraint firstItem="QWt-gM-Cfw" firstAttribute="centerX" secondItem="CDy-hX-Qom" secondAttribute="centerX" id="UPg-Vb-K0P"/>
                             <constraint firstItem="y5n-11-jpY" firstAttribute="leading" secondItem="nrw-Pi-ocb" secondAttribute="leading" constant="48" id="V26-V6-jK7"/>
                             <constraint firstItem="CDy-hX-Qom" firstAttribute="top" secondItem="y5n-11-jpY" secondAttribute="bottom" constant="16" id="dT6-00-vNp"/>
                             <constraint firstItem="nrw-Pi-ocb" firstAttribute="trailing" secondItem="y5n-11-jpY" secondAttribute="trailing" constant="48" id="e9c-h2-EU9"/>
@@ -97,6 +106,7 @@
                         <viewLayoutGuide key="safeArea" id="nrw-Pi-ocb"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="QWt-gM-Cfw" id="zD6-TI-ekA"/>
                         <outlet property="lastUpdatedLabel" destination="XqD-w9-wks" id="LCZ-pS-aXx"/>
                         <outlet property="sliderDisplayValue" destination="Xfp-dn-1R3" id="E6a-i6-U5v"/>
                         <outlet property="tableView" destination="CDy-hX-Qom" id="8qn-Kd-a83"/>

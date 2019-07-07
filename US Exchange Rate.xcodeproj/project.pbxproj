@@ -12,12 +12,17 @@
 		845D752A22CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845D752822CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodeld */; };
 		845D752C22CB2B9300FD6FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845D752B22CB2B9300FD6FDB /* Assets.xcassets */; };
 		845D752F22CB2B9300FD6FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845D752D22CB2B9300FD6FDB /* LaunchScreen.storyboard */; };
-		84A56E3722CC342100877C75 /* ExchangeRate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E3522CC342100877C75 /* ExchangeRate+CoreDataClass.swift */; };
-		84A56E3822CC342100877C75 /* ExchangeRate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E3622CC342100877C75 /* ExchangeRate+CoreDataProperties.swift */; };
+		84A56E3A22CC48DD00877C75 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E3922CC48DD00877C75 /* SwiftyJSON.swift */; };
+		84A56E3C22CC8B8500877C75 /* ExchangeRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E3B22CC8B8400877C75 /* ExchangeRateViewModel.swift */; };
+		84A56E3E22CC8E9600877C75 /* DynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E3D22CC8E9600877C75 /* DynamicType.swift */; };
+		84A56E4222CD2C6A00877C75 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E4122CD2C6A00877C75 /* DictionaryExtension.swift */; };
+		84A56E4422CD57CA00877C75 /* ExchangeRateStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E4322CD57CA00877C75 /* ExchangeRateStorage.swift */; };
+		84A56E4722CD6E4A00877C75 /* ExchangeRate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E4522CD6E4A00877C75 /* ExchangeRate+CoreDataClass.swift */; };
+		84A56E4822CD6E4A00877C75 /* ExchangeRate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A56E4622CD6E4A00877C75 /* ExchangeRate+CoreDataProperties.swift */; };
 		84D2E93522CB340100F84194 /* ExchangeRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2E93422CB340100F84194 /* ExchangeRateViewController.swift */; };
 		84D2E93722CB360E00F84194 /* ExchangeRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2E93622CB360E00F84194 /* ExchangeRateService.swift */; };
 		84D2E93922CB3EDB00F84194 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2E93822CB3EDB00F84194 /* Constants.swift */; };
-		84D2E93B22CB43C500F84194 /* ExchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2E93A22CB43C500F84194 /* ExchangeRate.swift */; };
+		84F3B0CE22D1A0E6008763C4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3B0CD22D1A0E6008763C4 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +33,17 @@
 		845D752B22CB2B9300FD6FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845D752E22CB2B9300FD6FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845D753022CB2B9300FD6FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84A56E3522CC342100877C75 /* ExchangeRate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExchangeRate+CoreDataClass.swift"; sourceTree = "<group>"; };
-		84A56E3622CC342100877C75 /* ExchangeRate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExchangeRate+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84A56E3922CC48DD00877C75 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		84A56E3B22CC8B8400877C75 /* ExchangeRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateViewModel.swift; sourceTree = "<group>"; };
+		84A56E3D22CC8E9600877C75 /* DynamicType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicType.swift; sourceTree = "<group>"; };
+		84A56E4122CD2C6A00877C75 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		84A56E4322CD57CA00877C75 /* ExchangeRateStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateStorage.swift; sourceTree = "<group>"; };
+		84A56E4522CD6E4A00877C75 /* ExchangeRate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExchangeRate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		84A56E4622CD6E4A00877C75 /* ExchangeRate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExchangeRate+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		84D2E93422CB340100F84194 /* ExchangeRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateViewController.swift; sourceTree = "<group>"; };
 		84D2E93622CB360E00F84194 /* ExchangeRateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateService.swift; sourceTree = "<group>"; };
 		84D2E93822CB3EDB00F84194 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		84D2E93A22CB43C500F84194 /* ExchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRate.swift; sourceTree = "<group>"; };
+		84F3B0CD22D1A0E6008763C4 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,7 @@
 		845D752022CB2B8E00FD6FDB /* US Exchange Rate */ = {
 			isa = PBXGroup;
 			children = (
+				84A56E3F22CC8EA300877C75 /* Helper */,
 				845D753722CB2C2900FD6FDB /* Model */,
 				845D753822CB2C2E00FD6FDB /* View */,
 				845D753622CB2C2300FD6FDB /* Controller */,
@@ -91,9 +102,8 @@
 		845D753722CB2C2900FD6FDB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				84A56E3522CC342100877C75 /* ExchangeRate+CoreDataClass.swift */,
-				84A56E3622CC342100877C75 /* ExchangeRate+CoreDataProperties.swift */,
-				84D2E93A22CB43C500F84194 /* ExchangeRate.swift */,
+				84A56E4522CD6E4A00877C75 /* ExchangeRate+CoreDataClass.swift */,
+				84A56E4622CD6E4A00877C75 /* ExchangeRate+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -111,6 +121,7 @@
 		845D753922CB2C3200FD6FDB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				84A56E4122CD2C6A00877C75 /* DictionaryExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -118,6 +129,7 @@
 		845D753A22CB2C3700FD6FDB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				84A56E3B22CC8B8400877C75 /* ExchangeRateViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -142,8 +154,19 @@
 		845D753D22CB2C5B00FD6FDB /* Storage */ = {
 			isa = PBXGroup;
 			children = (
+				84A56E4322CD57CA00877C75 /* ExchangeRateStorage.swift */,
 			);
 			path = Storage;
+			sourceTree = "<group>";
+		};
+		84A56E3F22CC8EA300877C75 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				84A56E3D22CC8E9600877C75 /* DynamicType.swift */,
+				84A56E3922CC48DD00877C75 /* SwiftyJSON.swift */,
+				84F3B0CD22D1A0E6008763C4 /* Reachability.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,13 +240,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F3B0CE22D1A0E6008763C4 /* Reachability.swift in Sources */,
+				84A56E4722CD6E4A00877C75 /* ExchangeRate+CoreDataClass.swift in Sources */,
 				84D2E93922CB3EDB00F84194 /* Constants.swift in Sources */,
+				84A56E3C22CC8B8500877C75 /* ExchangeRateViewModel.swift in Sources */,
 				84D2E93722CB360E00F84194 /* ExchangeRateService.swift in Sources */,
-				84A56E3822CC342100877C75 /* ExchangeRate+CoreDataProperties.swift in Sources */,
-				84A56E3722CC342100877C75 /* ExchangeRate+CoreDataClass.swift in Sources */,
 				84D2E93522CB340100F84194 /* ExchangeRateViewController.swift in Sources */,
 				845D752A22CB2B8F00FD6FDB /* US_Exchange_Rate.xcdatamodeld in Sources */,
-				84D2E93B22CB43C500F84194 /* ExchangeRate.swift in Sources */,
+				84A56E4822CD6E4A00877C75 /* ExchangeRate+CoreDataProperties.swift in Sources */,
+				84A56E4422CD57CA00877C75 /* ExchangeRateStorage.swift in Sources */,
+				84A56E3E22CC8E9600877C75 /* DynamicType.swift in Sources */,
+				84A56E4222CD2C6A00877C75 /* DictionaryExtension.swift in Sources */,
+				84A56E3A22CC48DD00877C75 /* SwiftyJSON.swift in Sources */,
 				845D752222CB2B8F00FD6FDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

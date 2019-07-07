@@ -2,7 +2,7 @@
 //  ExchangeRate+CoreDataProperties.swift
 //  US Exchange Rate
 //
-//  Created by Junior Etrata on 7/2/19.
+//  Created by Junior Etrata on 7/3/19.
 //  Copyright © 2019 Junior Etrata. All rights reserved.
 //
 //
@@ -18,5 +18,6 @@ extension ExchangeRate {
     }
 
     @NSManaged public var timestamp: Double
+    @NSManaged public var rates: [String:Double]
 
 }

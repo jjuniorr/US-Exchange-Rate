@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="ExchangeRate" representedClassName="ExchangeRate" syncable="YES">
+        <attribute name="rates" attributeType="Transformable" customClassName="[String:Double]" syncable="YES"/>
         <attribute name="timestamp" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
     </entity>
     <elements>
-        <element name="ExchangeRate" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="ExchangeRate" positionX="-63" positionY="-18" width="128" height="75"/>
     </elements>
 </model>
